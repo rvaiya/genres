@@ -14,7 +14,7 @@ genres.pl muffinman.template > demo.html
 
 Markup Format:
 
-Each line ending in a asterisk is considered a section, each line ending in two
+Each line ending in an asterisk is considered a section, each line ending in two
 asterisks is considered a subsection. A line consisting solely of \lheader or
 \rheader is considered the beginning or end of the right/left headers. A line
 which is neither a header tag or a section/subsection is interpreted as a point

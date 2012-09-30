@@ -1,11 +1,16 @@
 Purpose:
 
-This utility generates valid xhtml resumes from plaintext files which following a
-simpler, more intuitive and readable "markup language".
+This utility generates valid xhtml resumes from plaintext files which follow a
+more intuitive and readable "markup language".
 
 Usage:
 
-Run genres.pl on a template file structed in the below format.
+Run genres.pl on a template file structed in format described below. The utility 
+will dump output to stdout.
+
+E.G
+
+genres.pl muffinman.template > demo.html
 
 Markup Format:
 

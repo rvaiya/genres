@@ -1,0 +1,33 @@
+Purpose:
+
+This utility generates valid xhtml resumes from plaintext files which following a
+simpler, more intuitive and readable "markup language".
+
+Usage:
+
+Run genres.pl on a template file structed in the below format.
+
+Markup Format:
+
+Each line ending in a asterisk is considered a section, each line ending in two
+asterisks is considered a subsection. A line consisting solely of \lheader or
+\rheader is considered the beginning or end of the right/left headers. A line
+which is neither a header tag or a section/subsection is interpreted as a point
+(within a section). There are also two line tags \b and \d which are used for
+bolded texts and dates respectively. A date should always be at the end of a
+line, though bolded text can appear anywhere in a line. See muffin.res for an
+example.
+
+Bugs:
+
+Send all bugs to r.vaiya@gmail.com
+
+Todo:
+
+Abstract stylesheets away from presentation (allow user to specify css
+template). 
+
+Improve parsing methods/markup validation
+
+
+
